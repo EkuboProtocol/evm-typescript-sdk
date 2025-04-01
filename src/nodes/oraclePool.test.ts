@@ -65,7 +65,7 @@ describe("oraclePool", () => {
             token: 1n,
           },
           meta: { block: { number: 1, time: 32 } },
-        })
+        }),
       ).toEqual({
         ...baseQuote,
         executionResources: {

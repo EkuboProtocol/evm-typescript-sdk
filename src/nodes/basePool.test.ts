@@ -523,7 +523,7 @@ describe(BasePool, () => {
           "stateAfter": {
             "activeTickIndex": 216,
             "liquidity": 1838637850921516n,
-            "sqrtRatio": 15872195688912137691253264112597002n,
+            "sqrtRatio": 15872195688912137691253250833735181n,
           },
         }
       `);
@@ -549,7 +549,7 @@ describe(BasePool, () => {
           "stateAfter": {
             "activeTickIndex": 327,
             "liquidity": 10987751870970n,
-            "sqrtRatio": 376461622467786581012265718470693082n,
+            "sqrtRatio": 376461622467786581012265708479575567n,
           },
         }
       `);
@@ -564,7 +564,7 @@ describe(BasePool, () => {
         }),
       ).toMatchInlineSnapshot(`
         {
-          "calculatedAmount": 2056014996n,
+          "calculatedAmount": 2056014997n,
           "consumedAmount": 1000000000000000000n,
           "executionResources": {
             "initializedTicksCrossed": 5,
@@ -590,7 +590,7 @@ describe(BasePool, () => {
         }),
       ).toMatchInlineSnapshot(`
         {
-          "calculatedAmount": 19231691709n,
+          "calculatedAmount": 19231691710n,
           "consumedAmount": 10000000000000000000n,
           "executionResources": {
             "initializedTicksCrossed": 21,
@@ -616,18 +616,18 @@ describe(BasePool, () => {
         }),
       ).toMatchInlineSnapshot(`
         {
-          "calculatedAmount": 972405083420031733n,
+          "calculatedAmount": 972405082927562193n,
           "consumedAmount": -2000000000n,
           "executionResources": {
             "initializedTicksCrossed": 5,
             "tickSpacingsCrossed": 106,
           },
-          "feesPaid": 2917215250260097n,
+          "feesPaid": 2917215248782688n,
           "isPriceIncreasing": false,
           "stateAfter": {
             "activeTickIndex": 205,
             "liquidity": 3707980262711434n,
-            "sqrtRatio": 15356851300529036295687296777661975n,
+            "sqrtRatio": 15356851300620806570287432716339707n,
           },
         }
       `);
@@ -641,18 +641,18 @@ describe(BasePool, () => {
         }),
       ).toMatchInlineSnapshot(`
         {
-          "calculatedAmount": 10417135837307225847n,
+          "calculatedAmount": 10417135836763814306n,
           "consumedAmount": -20000000000n,
           "executionResources": {
             "initializedTicksCrossed": 21,
             "tickSpacingsCrossed": 498,
           },
-          "feesPaid": 31251407511921686n,
+          "feesPaid": 31251407510291452n,
           "isPriceIncreasing": false,
           "stateAfter": {
             "activeTickIndex": 189,
             "liquidity": 20066300368579088n,
-            "sqrtRatio": 14619328889221429322165582949273604n,
+            "sqrtRatio": 14619328889238387224752026284342381n,
           },
         }
       `);
@@ -677,7 +677,7 @@ describe(BasePool, () => {
           "stateAfter": {
             "activeTickIndex": 216,
             "liquidity": 1838637850921516n,
-            "sqrtRatio": 15897927924484882480384197655799943n,
+            "sqrtRatio": 15897927924484882480384184279975434n,
           },
         }
       `);
@@ -691,18 +691,18 @@ describe(BasePool, () => {
         }),
       ).toMatchInlineSnapshot(`
         {
-          "calculatedAmount": 194883586930788271243317027501365n,
+          "calculatedAmount": 194883586930788271243317027493408n,
           "consumedAmount": -3462603080395210725n,
           "executionResources": {
             "initializedTicksCrossed": 121,
-            "tickSpacingsCrossed": 433100,
+            "tickSpacingsCrossed": 433099,
           },
-          "feesPaid": 584650760792364825900439882497n,
+          "feesPaid": 584650760792364825900439882474n,
           "isPriceIncreasing": true,
           "stateAfter": {
             "activeTickIndex": 331,
             "liquidity": 0n,
-            "sqrtRatio": 6277100250585753475930931601400621808602321654880405518632n,
+            "sqrtRatio": 6276949602062853172742588666607187473671941430179807625216n,
           },
         }
       `);
@@ -1675,7 +1675,7 @@ describe(BasePool, () => {
           "stateAfter": {
             "activeTickIndex": -1,
             "liquidity": 0n,
-            "sqrtRatio": 18446748437148339061n,
+            "sqrtRatio": 18447191164202170524n,
           },
         }
       `);

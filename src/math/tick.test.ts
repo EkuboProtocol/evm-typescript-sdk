@@ -21,16 +21,16 @@ describe(toSqrtRatio, () => {
 
   it("snapshots", () => {
     expect(toSqrtRatio(1e6)).toMatchInlineSnapshot(
-      `561030636129153856592777659729523183729n`,
+      `561030636129153856579134353873645338624n`,
     );
     expect(toSqrtRatio(1e7)).toMatchInlineSnapshot(
-      `50502254805927926084427918474025309948677n`,
+      `50502254805927926084423855178401471004672n`,
     );
     expect(toSqrtRatio(-1e6)).toMatchInlineSnapshot(
-      `206391740095027370700312310531588921767n`,
+      `206391740095027370700312310528859963392n`,
     );
     expect(toSqrtRatio(-1e7)).toMatchInlineSnapshot(
-      `2292810285051363400276741638672651165n`,
+      `2292810285051363400276741630355046400n`,
     );
   });
 });
@@ -54,12 +54,12 @@ describe(approximateNumberOfTickSpacingsCrossed, () => {
   it("max to min", () => {
     expect(
       approximateNumberOfTickSpacingsCrossed(MAX_SQRT_RATIO, MIN_SQRT_RATIO, 1),
-    ).toMatchInlineSnapshot(`706955`);
+    ).toMatchInlineSnapshot(`706954`);
   });
   it("min to max", () => {
     expect(
       approximateNumberOfTickSpacingsCrossed(MIN_SQRT_RATIO, MAX_SQRT_RATIO, 1),
-    ).toMatchInlineSnapshot(`706955`);
+    ).toMatchInlineSnapshot(`706954`);
   });
   it("min to max 1k tick spacing", () => {
     expect(

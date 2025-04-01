@@ -6,7 +6,7 @@ exports[`twammPool > quote > 1e18 sale rates, no sale rate deltas, quote token1 
 
 exports[`twammPool > quote > compare to contract output > first swap 1`] = `
 {
-  "calculatedAmount": 19993991114278719145825n,
+  "calculatedAmount": 19993991114278719141373n,
   "consumedAmount": 10000000000000000000000n,
   "executionResources": {
     "initializedTicksCrossed": 0,
@@ -20,7 +20,7 @@ exports[`twammPool > quote > compare to contract output > first swap 1`] = `
     "activeTickIndex": 0,
     "lastExecutionTime": 2040,
     "liquidity": 70710696755630728101718334n,
-    "sqrtRatio": 481111534894473352502987770485010134030n,
+    "sqrtRatio": 481111534894473352449417576760253349651n,
     "token0SaleRate": 10526880627450980392156862745n,
     "token1SaleRate": 10526880627450980392156862745n,
   },
@@ -29,7 +29,7 @@ exports[`twammPool > quote > compare to contract output > first swap 1`] = `
 
 exports[`twammPool > quote > compare to contract output > second swap from first 1`] = `
 {
-  "calculatedAmount": 19985938387207888688304n,
+  "calculatedAmount": 19985938387207888683855n,
   "consumedAmount": 10000000000000000000000n,
   "executionResources": {
     "initializedTicksCrossed": 0,
@@ -43,7 +43,7 @@ exports[`twammPool > quote > compare to contract output > second swap from first
     "activeTickIndex": 0,
     "lastExecutionTime": 2100,
     "liquidity": 70710696755630728101718334n,
-    "sqrtRatio": 481014649217532599812750432979097102055n,
+    "sqrtRatio": 481014649217532599759201966742666380061n,
     "token0SaleRate": 10526880627450980392156862745n,
     "token1SaleRate": 10526880627450980392156862745n,
   },
@@ -66,7 +66,7 @@ exports[`twammPool > quote > moody testing examples > 0 seconds pass 1`] = `
     "activeTickIndex": 0,
     "lastExecutionTime": 60,
     "liquidity": 1000000000000000000000n,
-    "sqrtRatio": 481231811499356508086519009265716982182n,
+    "sqrtRatio": 481231811499356508032916671135276335104n,
     "token0SaleRate": 4294967296000000000000000000n,
     "token1SaleRate": 4294967296000000000000000000n,
   },
@@ -89,7 +89,7 @@ exports[`twammPool > quote > moody testing examples > 30 seconds pass 1`] = `
     "activeTickIndex": 0,
     "lastExecutionTime": 90,
     "liquidity": 1000000000000000000000n,
-    "sqrtRatio": 471441649416958073156966148369774588652n,
+    "sqrtRatio": 471441649416958073107681378881020802382n,
     "token0SaleRate": 4294967296000000000000000000n,
     "token1SaleRate": 4294967296000000000000000000n,
   },
@@ -112,7 +112,7 @@ exports[`twammPool > quote > moody testing examples > 60 seconds pass 1`] = `
     "activeTickIndex": 0,
     "lastExecutionTime": 120,
     "liquidity": 1000000000000000000000n,
-    "sqrtRatio": 462432609411975157975265359638471888182n,
+    "sqrtRatio": 462432609411975157929875274110526629149n,
     "token0SaleRate": 0n,
     "token1SaleRate": 0n,
   },
@@ -135,7 +135,7 @@ exports[`twammPool > quote > price after no swap > result of quote after full da
     "activeTickIndex": 0,
     "lastExecutionTime": 86400,
     "liquidity": 70710696755630728101718334n,
-    "sqrtRatio": 480217034354703129070759320246988480280n,
+    "sqrtRatio": 480217034354703129017608632269423489921n,
     "token0SaleRate": 10526880627450980392156862745n,
     "token1SaleRate": 10526880627450980392156862745n,
   },
@@ -158,7 +158,7 @@ exports[`twammPool > quote > price after no swap > result of quote after full da
     "activeTickIndex": 0,
     "lastExecutionTime": 86400,
     "liquidity": 70710696755630728101718334n,
-    "sqrtRatio": 480217034354703129070759320246988480272n,
+    "sqrtRatio": 480217034354703129017608632269423489915n,
     "token0SaleRate": 10526880627450980392156862745n,
     "token1SaleRate": 10526880627450980392156862745n,
   },
@@ -181,7 +181,7 @@ exports[`twammPool > quote > price after no swap > result of quote after half da
     "activeTickIndex": 0,
     "lastExecutionTime": 43200,
     "liquidity": 70710696755630728101718334n,
-    "sqrtRatio": 480723349593747841774961896705100136844n,
+    "sqrtRatio": 480723349593747841721585980537899561585n,
     "token0SaleRate": 10526880627450980392156862745n,
     "token1SaleRate": 10526880627450980392156862745n,
   },
@@ -194,7 +194,7 @@ exports[`twammPool > quote > sale rate deltas goes to zero halfway through execu
 
 exports[`twammPool > quote > second swap in opposite direction > first swap 1`] = `
 {
-  "calculatedAmount": 19993991114278719145825n,
+  "calculatedAmount": 19993991114278719141373n,
   "consumedAmount": 10000000000000000000000n,
   "executionResources": {
     "initializedTicksCrossed": 0,
@@ -208,7 +208,7 @@ exports[`twammPool > quote > second swap in opposite direction > first swap 1`] 
     "activeTickIndex": 0,
     "lastExecutionTime": 2040,
     "liquidity": 70710696755630728101718334n,
-    "sqrtRatio": 481111534894473352502987770485010134030n,
+    "sqrtRatio": 481111534894473352449417576760253349651n,
     "token0SaleRate": 10526880627450980392156862745n,
     "token1SaleRate": 10526880627450980392156862745n,
   },
@@ -217,7 +217,7 @@ exports[`twammPool > quote > second swap in opposite direction > first swap 1`] 
 
 exports[`twammPool > quote > second swap in opposite direction > second swap from first 1`] = `
 {
-  "calculatedAmount": 5002017297567650143567n,
+  "calculatedAmount": 5002017297567650144681n,
   "consumedAmount": 10000000000000000000000n,
   "executionResources": {
     "initializedTicksCrossed": 0,
@@ -231,7 +231,7 @@ exports[`twammPool > quote > second swap in opposite direction > second swap fro
     "activeTickIndex": 0,
     "lastExecutionTime": 2100,
     "liquidity": 70710696755630728101718334n,
-    "sqrtRatio": 481158951092028441262660757392358917093n,
+    "sqrtRatio": 481158951092028441209090878706305686329n,
     "token0SaleRate": 10526880627450980392156862745n,
     "token1SaleRate": 10526880627450980392156862745n,
   },
@@ -266,9 +266,9 @@ exports[`twammPool > quote > zero sale rate token1, close to min usable price, q
 
 exports[`twammPool > quote > zero sale rate token1, close to min usable price, quote token0 2`] = `0n`;
 
-exports[`twammPool > quote > zero sale rate token1, close to min usable price, quote token1 1`] = `15448319606494511814769784n`;
+exports[`twammPool > quote > zero sale rate token1, close to min usable price, quote token1 1`] = `15448319606494511816873777n`;
 
-exports[`twammPool > quote > zero sale rate token1, min price, quote token1 1`] = `18446739710271795309434404n`;
+exports[`twammPool > quote > zero sale rate token1, min price, quote token1 1`] = `18446296994052722740410160n`;
 
 exports[`twammPool > quote > zero sale rate token1, quote token1 1`] = `999n`;
 

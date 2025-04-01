@@ -69,7 +69,7 @@ export class OraclePool implements QuoteNode<OracleResources, OraclePoolState> {
   }
 
   quote(
-    params: QuoteParams<OraclePoolState>
+    params: QuoteParams<OraclePoolState>,
   ): Quote<OracleResources, OraclePoolState> {
     const quote = this.basePool.quote(params);
 
@@ -93,7 +93,7 @@ export class OraclePool implements QuoteNode<OracleResources, OraclePoolState> {
 
   combineResources(
     resource: OracleResources,
-    additionalResources: OracleResources
+    additionalResources: OracleResources,
   ): OracleResources {
     return {
       ...this.basePool.combineResources(resource, additionalResources),

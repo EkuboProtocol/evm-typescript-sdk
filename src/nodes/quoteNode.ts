@@ -11,7 +11,7 @@ export interface BasePoolResources {
 
 export interface Quote<
   TResources extends BasePoolResources,
-  TState extends BasePoolState
+  TState extends BasePoolState,
 > {
   readonly consumedAmount: bigint;
   readonly calculatedAmount: bigint;
@@ -61,7 +61,7 @@ export interface Tick {
 
 export interface QuoteNode<
   TResources extends BasePoolResources = BasePoolResources,
-  TSwapState extends BasePoolState = BasePoolState
+  TSwapState extends BasePoolState = BasePoolState,
 > {
   readonly key: NodeKey;
   readonly state: Readonly<TSwapState>;
@@ -80,7 +80,7 @@ export interface QuoteNode<
    */
   combineResources(
     resource: TResources,
-    additionalResources: TResources
+    additionalResources: TResources,
   ): TResources;
 
   /**

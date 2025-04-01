@@ -116,7 +116,7 @@ describe(amount1Delta, () => {
         0xffffffffffffffffn,
         false,
       ),
-    ).toMatchInlineSnapshot(`340282286429718909724583623827301092853n`);
+    ).toMatchInlineSnapshot(`340274119756928397675478831269759003622n`);
   });
 
   it("should panic", () => {
