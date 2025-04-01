@@ -1,7 +1,7 @@
 {
-  "name": "@ekubo/starknet-sdk",
+  "name": "@ekubo/evm-sdk",
   "version": "0.0.7",
-  "description": "SDK for working with Ekubo protocol on Starknet",
+  "description": "SDK for working with Ekubo protocol on EVM",
   "main": "dist/index.js",
   "scripts": {
     "test": "vitest",
