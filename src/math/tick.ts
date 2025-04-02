@@ -1,11 +1,11 @@
 import { MAX_U256 } from "./constants";
 
-export const MIN_TICK = -88722835;
-export const MAX_TICK = -MIN_TICK;
-export const MIN_SQRT_RATIO: bigint = 18447191164202170524n;
+export const MIN_TICK = -88722835 as const;
+export const MAX_TICK = 88722835 as const;
+export const MAX_TICK_SPACING = 698605 as const;
+export const MIN_SQRT_RATIO: bigint = 18447191164202170524n as const;
 export const MAX_SQRT_RATIO: bigint =
-  6276949602062853172742588666607187473671941430179807625216n;
-export const MAX_TICK_SPACING = 698605;
+  6276949602062853172742588666607187473671941430179807625216n as const;
 
 const TWO_POW_160 = 1n << 160n;
 const TWO_POW_128 = 1n << 128n;
